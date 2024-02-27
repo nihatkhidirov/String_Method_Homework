@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\Task\Hometask_String_Method\bin\Debug\net6.0\Hometask_String_Method.exe
+C:\Users\hp\Desktop\Task\Hometask_String_Method\bin\Debug\net6.0\Hometask_String_Method.deps.json
+C:\Users\hp\Desktop\Task\Hometask_String_Method\bin\Debug\net6.0\Hometask_String_Method.runtimeconfig.json
+C:\Users\hp\Desktop\Task\Hometask_String_Method\bin\Debug\net6.0\Hometask_String_Method.dll
+C:\Users\hp\Desktop\Task\Hometask_String_Method\bin\Debug\net6.0\Hometask_String_Method.pdb
+C:\Users\hp\Desktop\Task\Hometask_String_Method\obj\Debug\net6.0\Hometask_String_Method.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Task\Hometask_String_Method\obj\Debug\net6.0\Hometask_String_Method.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Task\Hometask_String_Method\obj\Debug\net6.0\Hometask_String_Method.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Task\Hometask_String_Method\obj\Debug\net6.0\Hometask_String_Method.AssemblyInfo.cs
+C:\Users\hp\Desktop\Task\Hometask_String_Method\obj\Debug\net6.0\Hometask_String_Method.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Task\Hometask_String_Method\obj\Debug\net6.0\Hometask_String_Method.dll
+C:\Users\hp\Desktop\Task\Hometask_String_Method\obj\Debug\net6.0\refint\Hometask_String_Method.dll
+C:\Users\hp\Desktop\Task\Hometask_String_Method\obj\Debug\net6.0\Hometask_String_Method.pdb
+C:\Users\hp\Desktop\Task\Hometask_String_Method\obj\Debug\net6.0\Hometask_String_Method.genruntimeconfig.cache
+C:\Users\hp\Desktop\Task\Hometask_String_Method\obj\Debug\net6.0\ref\Hometask_String_Method.dll
