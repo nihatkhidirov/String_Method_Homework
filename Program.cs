@@ -4,37 +4,37 @@
     {
         static void Main(string[] args)
         {
-            //#region ForMethods_Task1
-            ////Console.WriteLine("Birinci Ededinizi Daxil Edin: ");
-            ////double number1 = Convert.ToDouble(Console.ReadLine());
-            ////Console.WriteLine("Ikinci Ededinizi Daxil Edin: ");
-            ////double number2 = Convert.ToDouble(Console.ReadLine());
-            ////Console.WriteLine("Operatoru Daxil Edin: ");
-            ////char c = Convert.ToChar(Console.ReadLine());
-            ////Calculation(number1,number2,c);
-            ////Verilmis iki eded uzerinde verilmis operator simvoluna esasen riyazi emeliyyat aparib neticesini consolde.da
-            ////gosteren metod
-            //#endregion
-            //#region ForMethods_Task2
-            ////Console.WriteLine("Stringinizi Daxil Edin: ");
-            ////string input = Console.ReadLine();
-            ////CountsOfSymbols(input);
-            //#endregion
+            #region ForMethods_Task1
+            //Console.WriteLine("Birinci Ededinizi Daxil Edin: ");
+            //double number1 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Ikinci Ededinizi Daxil Edin: ");
+            //double number2 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Operatoru Daxil Edin: ");
+            //char c = Convert.ToChar(Console.ReadLine());
+            //Calculation(number1,number2,c);
+            //Verilmis iki eded uzerinde verilmis operator simvoluna esasen riyazi emeliyyat aparib neticesini consolde.da
+            //gosteren metod
+            #endregion
+            #region ForMethods_Task2
+            //Console.WriteLine("Stringinizi Daxil Edin: ");
+            //string input = Console.ReadLine();
+            //CountsOfSymbols(input);
+            #endregion
             CountOfWords("Bugun hava istidir");
-            //#region ForMethods_Task4
-            ////Console.WriteLine("Ededinizi Daxil Edin: ");
-            ////int input=Convert.ToInt32(Console.ReadLine());
-            ////SumOfInteger(input);
-            //#endregion
-            //#region ForMethod_Task5
-            //Power(3, 5);
-            //#endregion
-            //#region ForMethod_Task6
-            //NegativToPositiv(1,2,-4,-5,1);
-            //#endregion
-            //#region ForMethod_Task7
-            //Reverse("salam");
-            //#endregion
+            #region ForMethods_Task4
+            //Console.WriteLine("Ededinizi Daxil Edin: ");
+            //int input=Convert.ToInt32(Console.ReadLine());
+            //SumOfInteger(input);
+            #endregion
+            #region ForMethod_Task5
+            Power(3, 5);
+            #endregion
+            #region ForMethod_Task6
+            NegativToPositiv(1, 2, -4, -5, 1);
+            #endregion
+            #region ForMethod_Task7
+            Reverse("salam");
+            #endregion
         }
 
         #region Task_1
