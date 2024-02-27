@@ -25,7 +25,15 @@
             //int input=Convert.ToInt32(Console.ReadLine());
             //SumOfInteger(input);
             #endregion
-            Power(2, 4);
+            #region ForMethod_Task5
+            Power(3, 5);
+            #endregion
+            #region ForMethod_Task6
+            NegativToPositiv(1,2,-4,-5,1);
+            #endregion
+            #region ForMethod_Task7
+            Reverse("salam");
+            #endregion
         }
 
         #region Task_1
@@ -99,16 +107,43 @@
         #region Task_5
         static void Power(int eded, int quvvet)
         {
+            int newnum = eded;
             //Verilmis ededi verilmis quvvete yukseldib neticesini qaytaran metod
-            int count = quvvet;
-            while (quvvet>0)
+            for (int i = 1; i < quvvet; i++)
             {
-                quvvet--;
-                eded *= eded;
+                eded=newnum*eded;
+
+
             }
             Console.WriteLine(eded);
         }
         #endregion
-        //.......//
+        #region Task_6
+        //Verilmis ededler siyahisinin butun elementlerini musbet sekilde qaytaran metod. 
+        static void NegativToPositiv(params int[] arr2)
+        {
+            for (int i = 0; i < arr2.Length; i++)
+            {
+                if (arr2[i] < 0)
+                {
+                    arr2[i] = -arr2[i];
+                }
+                Console.WriteLine(arr2[i]);
+            }
+
+        }
+        #endregion
+        #region Task_7
+        //Verilmis yazini ters formada qaytaran metod 
+        static void Reverse(string input)
+        {
+            string empty = string.Empty;
+            for (int i = input.Length - 1; i >= 0; i--)
+            {
+                empty += input[i];
+            }
+            Console.WriteLine(empty);
+        }
+        #endregion
     }
 }
