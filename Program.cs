@@ -4,36 +4,37 @@
     {
         static void Main(string[] args)
         {
-            #region ForMethods_Task1
-            //Console.WriteLine("Birinci Ededinizi Daxil Edin: ");
-            //double number1 = Convert.ToDouble(Console.ReadLine());
-            //Console.WriteLine("Ikinci Ededinizi Daxil Edin: ");
-            //double number2 = Convert.ToDouble(Console.ReadLine());
-            //Console.WriteLine("Operatoru Daxil Edin: ");
-            //char c = Convert.ToChar(Console.ReadLine());
-            //Calculation(number1,number2,c);
-            //Verilmis iki eded uzerinde verilmis operator simvoluna esasen riyazi emeliyyat aparib neticesini consolde.da
-            //gosteren metod
-            #endregion
-            #region ForMethods_Task2
-            //Console.WriteLine("Stringinizi Daxil Edin: ");
-            //string input = Console.ReadLine();
-            //CountsOfSymbols(input);
-            #endregion
-            #region ForMethods_Task4
-            //Console.WriteLine("Ededinizi Daxil Edin: ");
-            //int input=Convert.ToInt32(Console.ReadLine());
-            //SumOfInteger(input);
-            #endregion
-            #region ForMethod_Task5
-            Power(3, 5);
-            #endregion
-            #region ForMethod_Task6
-            NegativToPositiv(1,2,-4,-5,1);
-            #endregion
-            #region ForMethod_Task7
-            Reverse("salam");
-            #endregion
+            //#region ForMethods_Task1
+            ////Console.WriteLine("Birinci Ededinizi Daxil Edin: ");
+            ////double number1 = Convert.ToDouble(Console.ReadLine());
+            ////Console.WriteLine("Ikinci Ededinizi Daxil Edin: ");
+            ////double number2 = Convert.ToDouble(Console.ReadLine());
+            ////Console.WriteLine("Operatoru Daxil Edin: ");
+            ////char c = Convert.ToChar(Console.ReadLine());
+            ////Calculation(number1,number2,c);
+            ////Verilmis iki eded uzerinde verilmis operator simvoluna esasen riyazi emeliyyat aparib neticesini consolde.da
+            ////gosteren metod
+            //#endregion
+            //#region ForMethods_Task2
+            ////Console.WriteLine("Stringinizi Daxil Edin: ");
+            ////string input = Console.ReadLine();
+            ////CountsOfSymbols(input);
+            //#endregion
+            CountOfWords("Bugun hava istidir");
+            //#region ForMethods_Task4
+            ////Console.WriteLine("Ededinizi Daxil Edin: ");
+            ////int input=Convert.ToInt32(Console.ReadLine());
+            ////SumOfInteger(input);
+            //#endregion
+            //#region ForMethod_Task5
+            //Power(3, 5);
+            //#endregion
+            //#region ForMethod_Task6
+            //NegativToPositiv(1,2,-4,-5,1);
+            //#endregion
+            //#region ForMethod_Task7
+            //Reverse("salam");
+            //#endregion
         }
 
         #region Task_1
@@ -85,6 +86,24 @@
 
         }
         #endregion
+        //Verilmis yazidaki sozlerin sayini qaytaran metod(soz dedikde bosluqlarla ayrilmis butun yazilar nezerde tutulur)
+        static void CountOfWords(string input) //Code Academyde bir nece tedris sahesi var
+        {
+            int count = 0;
+            char c = ' ';
+
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (input[i] == c)
+                {
+                    count++;
+
+                }
+            }
+            count = count + 1;
+            Console.WriteLine(count);
+        }
+
         #region Task_4
         //Verilmis Ededin Reqemleri Cemini qaytaran metod
         static void SumOfInteger(int input)
