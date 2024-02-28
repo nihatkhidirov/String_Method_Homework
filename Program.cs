@@ -20,7 +20,9 @@
             //string input = Console.ReadLine();
             //CountsOfSymbols(input);
             #endregion
+            #region ForMethods_Task3
             CountOfWords("Bugun hava istidir");
+            #endregion
             #region ForMethods_Task4
             //Console.WriteLine("Ededinizi Daxil Edin: ");
             //int input=Convert.ToInt32(Console.ReadLine());
@@ -86,6 +88,7 @@
 
         }
         #endregion
+        #region Task_3
         //Verilmis yazidaki sozlerin sayini qaytaran metod(soz dedikde bosluqlarla ayrilmis butun yazilar nezerde tutulur)
         static void CountOfWords(string input) //Code Academyde bir nece tedris sahesi var
         {
@@ -103,7 +106,7 @@
             count = count + 1;
             Console.WriteLine(count);
         }
-
+        #endregion
         #region Task_4
         //Verilmis Ededin Reqemleri Cemini qaytaran metod
         static void SumOfInteger(int input)
